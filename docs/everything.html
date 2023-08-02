@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/dark.js"></script>
+    <title>Everything</title>
+</head>
+
+<body class="everything">
+    <a id="go_up" href="#">
+        <div class="up-arrow">
+            <i class="fas fa-angle-up"></i>
+        </div>
+    </a>
+    <nav class="header-nav">
+        <div class="nav-inner">
+            <section class="nav-start">
+                <h4 class="nav-name">Harsh Saglani</h4>
+            </section>
+            <ul class="nav-center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="talks.html">Talks & Publications</a></li>
+                <li><a class="active">Everything</a></li>
+                <li><a href="fun.html">Fun</a></li>
+                <a id="searchIcon">🔍</a>
+                <span onclick="darkToggle()">
+                    <i class="fas fa-moon" id="nav-icon"></i>
+                </span>
+            </ul>
+            <section class="nav-aside">
+                <!-- <button class="nav-subscribe">Subscribe</button> -->
+            </section>
+        </div>
+        <div class="search-tray">
+            <input class="search-input" type="text" placeholder="START TYPING TO SEARCH">
+        </div>
+    </nav>
+    <header>
+        <div class="container-fluid">
+            <div class="blog-inner">
+                <div class="blog-featured">
+                    <a href="#">
+                        <div class="img-wrap">
+                            <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                        </div>
+                    </a>
+                    <p class="blog-category blue">
+                        Emerging Tech
+                    </p>
+                    <h4 class="blog-title"><a href="#">10 examples of emerging technologies that are revolutionizing the media industry</a></h4>
+                    <p class="blog-description">Looking to upgrade your content game? Here are 10 examples of emerging technologies that are transforming our content creation and distribution process.</p>
+                    <button class="read"><a href="#">Read story</a></button>
+                </div>
+                <div class="blog-side-posts">
+                    <div class="blog-side-post-item">
+                        <a href="#">
+                            <div class="img-wrap">
+                                <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                            </div>
+                        </a>
+                        <div class="side-text">
+                            <p class="blog-category pink">Blog Post</p>
+                            <h5 class="blog-title"><a href="#">20 predictions from industry experts for your 2020 video content strategy</a></h5>
+                            <p class="read">
+                                <a href="#" class="read-post video-trends-insights">Read story</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog-side-post-item">
+                        <a href="#">
+                            <div class="img-wrap">
+                                <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                            </div>
+                        </a>
+                        <div class="side-text">
+                            <p class="blog-category yellow">Blog Post</p>
+                            <h5 class="blog-title"><a href="#">20 predictions from industry experts for your 2020 video content strategy</a></h5>
+                            <p class="read">
+                                <a href="#" class="read-post video-trends-insights">Read story</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog-side-post-item">
+                        <a href="#">
+                            <div class="img-wrap">
+                                <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                            </div>
+                        </a>
+                        <div class="side-text">
+                            <p class="blog-category blue">Blog Post</p>
+                            <h5 class="blog-title"><a href="#">20 predictions from industry experts for your 2020 video content strategy</a></h5>
+                            <p class="read">
+                                <a href="#" class="read-post video-trends-insights">Read story</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="everything new-blog-posts">
+        <div class="container-fluid">
+            <div class="section-header-title">
+                <h3>New Blog Posts</h3>
+            </div>
+            <div class="new-blog-outer">
+                <div class="new-blog-inner">
+                    <article id="post-8876" class="new-blog-inner-item">
+                        <a href="#">
+                            <div class="img-wrap">
+                                <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                            </div>
+                        </a>
+                        <div class="text">
+                            <p class="blog-category blue">
+                                Social Video
+                            </p>
+                            <a href="#">
+                                <h4>What’s trending in social media news: February</h4>
+                            </a>
+                            <p class="read"><a href="#" class="read-post">Read story</a></p>
+                        </div>
+                    </article>
+                    <article id="post-13589" class="new-blog-inner-item">
+                        <a href="#">
+                            <div class="img-wrap">
+                                <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                            </div>
+                        </a>
+                        <div class="text">
+                            <p class="blog-category pink">
+                                Social Video
+                            </p>
+                            <a href="#">
+                                <h4>What’s trending in social media news: February</h4>
+                            </a>
+                            <p class="read">
+                                <a href="#" class="read-post">Read story</a>
+                            </p>
+                        </div>
+                    </article>
+                    <article id="post-13589" class="new-blog-inner-item">
+                        <a href="#">
+                            <div class="img-wrap">
+                                <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                            </div>
+                        </a>
+                        <div class="text">
+                            <p class="blog-category yellow">
+                                Social Video
+                            </p>
+                            <a href="#">
+                                <h4>What’s trending in social media news: February</h4>
+                            </a>
+                            <p class="read">
+                                <a href="#" class="read-post">Read story</a>
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="youtube-video">
+        <div class="container-fluid">
+            <div class="section-header-title">
+                <h3>Recent Youtube Videos</h3>
+            </div>
+            <div class="youtube-video-wrap">
+                <div class="youtube-video-inner">
+                    <div class="youtube-item">
+                        <a href="#">
+                            <div class="img-wrap">
+                                <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                            </div>
+                        </a>
+                        <div class="text">
+                            <p class="blog-category blue">Trends &amp; Insights</p>
+                            <a href="#">
+                                <h5>Top 10 millennial media companies… for now</h5>
+                            </a>
+                            <p class="read">
+                                <a href="#" class="read-post video-trends-insights">Read story</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="youtube-item">
+                        <a href="#">
+                            <div class="img-wrap">
+                                <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                            </div>
+                        </a>
+                        <div class="text">
+                            <p class="blog-category pink">Trends &amp; Insights</p>
+                            <a href="#">
+                                <h5>Top 10 millennial media companies… for now</h5>
+                            </a>
+                            <p class="read">
+                                <a href="#" class="read-post video-trends-insights">Read story</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="youtube-item">
+                        <a href="#">
+                            <div class="img-wrap">
+                                <img src="assets/img/sample2.jpg" alt="image" data-rjs="2">
+                            </div>
+                        </a>
+                        <div class="text">
+                            <p class="blog-category yellow">Trends &amp; Insights</p>
+                            <a href="#">
+                                <h5>Top 10 millennial media companies… for now</h5>
+                            </a>
+                            <p class="read">
+                                <a href="#" class="read-post video-trends-insights">Read story</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="youtube-video-featured">
+                    <div class="container-fluid">
+                        <a class="featured-resource" href="#" class="featured-resources" style="background-image: url('assets/img/sample2.jpg');">
+                            <h5>Video for event marketing: How to make the most impact before, during, and after every event</h5>
+                            <p class="read-post">Watch Webinar</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Subscribe">
+        <div class="outer-wrapper">
+            <div class="container-fluid">
+                <div class="subscribe-wrapper">
+                    <div class="subscribe-inner">
+                        <div class="section-header-title">
+                            <h2 class="main-text">Recieve awesome posts in your mailbox </h2>
+                        </div>
+                        <h5 class="sub-text">
+                            Subscribe to get notified whenever I post something.
+                        </h5>
+                    </div>
+                    <div class="info">
+                        <div class="form">
+                            <div class="subscribe-form-wrapper">
+                                <form class="form" style="display: flex;">
+                                    <div class="form-group">
+                                        <input id="Email" name="Email" placeholder="Enter your email" maxlength="255" type="email" class="mktoField mktoEmailField mktoHasWidth mktoRequired form-control">
+                                    </div>
+                                    <div class="subscribe-btn">
+                                        <button type="submit">Subscribe</button>
+                                    </div>
+                                </form>
+                                <p>&nbsp;&nbsp;<i class="fas fa-user"></i>&nbsp;&nbsp;125 people are reading this newsletter!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-outer-wrapper">
+                <div class="footer-wrapper">
+                    <div class="section-header-title">
+                        <h3>Living, Learning & Leveling up one day at a time</h3>
+                    </div>
+                    <div class="sub-section-header-title">
+                        <h5>Designed and build with <i class="fas blog-category pink fa-heart"></i> by Harsh Saglani</h>
+                    </div>
+                    <div class="github-stats">
+                        <i class="fas fa-eye"></i>24
+                        <i class="fas fa-star"></i>32
+                        <i class="fas fa-code-branch"></i>12
+                    </div>
+                    <nav class="footer-nav">
+                        <ul class="nav-center">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="my_story.html">My Story</a></li>
+                            <li><a href="everything.html">Everything</a></li>
+                            <li><a href="blog.html">Projects</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="blog.html">Youtube</a></li>
+                            <li><a href="fun.html">Fun</a></li>
+                            <li><a href="#">What am I upto?</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
