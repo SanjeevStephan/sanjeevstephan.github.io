@@ -1,0 +1,151 @@
+      b, strong {
+    font-weight: 900 !important;  /* Bold */
+    /* or 900 for extra bold */
+}
+
+        @font-face {
+            font-family: 'Gill Sans MT';
+            src: local('Gill Sans MT'),
+                 local('GillSansMT'),
+                 url('https://fonts.googleapis.com/css2?family=Gill+Sans:wght@400;700&display=swap') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Gill Sans MT Body';
+            src: local('Gill Sans MT'),
+                 local('GillSansMT'),
+                 url('https://fonts.googleapis.com/css2?family=Gill+Sans:wght@400&display=swap') format('woff2');
+            font-weight: 600;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Gill Sans MT Body', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.4;
+        }
+        .resume {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            font-family: 'Gill Sans MT Body', Arial, sans-serif;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #808080;
+            padding-bottom: 20px;
+        }
+
+        .line {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #808080;
+            padding-bottom: 05px;
+
+        }
+        .name-container {
+            display: block;
+        }
+        .first-name {
+            font-size: 36px;
+            font-weight: bold;
+            font-family: 'Gill Sans MT', Arial, sans-serif;
+            color: #000000;
+            margin: 0 0 2px 0;
+            line-height: 1.1;
+            letter-spacing: 3.5px;
+        }
+        .last-name {
+            font-size: 36px;
+            font-weight: bold;
+            font-family: 'Gill Sans MT', Arial, sans-serif;
+            color: #808080;
+            margin: 0;
+            letter-spacing: 3.5px;
+        }
+        .contact {
+            text-align: right;
+            font-size: 14px;
+            font-family: 'Gill Sans MT Body', Arial, sans-serif;
+        }
+        .contact span {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section-title {
+            color: #808080;
+            padding: 8px 0;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: 'Gill Sans MT', Arial, sans-serif;
+            display: block;
+            margin-bottom: 15px;
+            letter-spacing: 1.5px;
+        }
+        .objective {
+            font-style: normal;
+            text-align: justify;
+            font-family: 'Gill Sans MT Body', Arial, sans-serif;
+        }
+        .experience-item {
+            margin-bottom: 20px;
+            margin-left: 0;
+            font-family: 'Gill Sans MT Body', Arial, sans-serif;
+        }
+        .job-title {
+
+            color: #32f2f;
+            font-size: 18px;
+            font-weight: 600;
+            margin-left: 0;
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+                        display: block;
+           font-family: 'Gill Sans MT Body', Arial, sans-serif;
+        }
+        .job-period {
+            color: #666;
+            font-size: 14px;
+            margin-left: 0;
+            font-family: 'Gill Sans MT Body', Arial, sans-serif;
+        }
+        .job-desc {
+            margin: 8px 0 5px 0;
+            font-family: 'Gill Sans MT Body', Arial, sans-serif;
+        }
+        .bullet {
+            list-style: none;
+            margin-left: 0;
+            margin-bottom: 5px;
+            position: relative;
+            padding-left: 18px;
+            font-family: 'Gill Sans MT Body', Arial, sans-serif;
+        }
+        .bullet::before {
+            content: "➤";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #d32f2f;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .restaurant {
+            font-weight: bold;
+            color: #333;
+            margin-left: 0;
+            font-family: 'Gill Sans MT Body', Arial, sans-serif;
+        }
